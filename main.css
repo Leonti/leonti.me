@@ -1,3 +1,4 @@
+/* Add shadows to at least avatar, maybe paper-like background to card? */
 html, body {
 	height: 100%;
 	width: 100%;
@@ -61,7 +62,10 @@ a:hover {
 	border: 0.7em #F72 solid;
 	margin-bottom: 0.5em;
 	margin-right: 1em;
-	float: left;		
+	float: left;
+	-webkit-border-radius: 6em;
+	-moz-border-radius: 6em;
+	border-radius: 6em;		
 }
 
 .profile .name,
@@ -97,3 +101,5 @@ a:hover {
 	display: inline;
 	margin: 1em 0.5em;
 } 
+
+
