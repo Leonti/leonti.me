@@ -63,9 +63,6 @@ a:hover {
 	margin-bottom: 0.5em;
 	margin-right: 1em;
 	float: left;
-	-webkit-border-radius: 6em;
-	-moz-border-radius: 6em;
-	border-radius: 6em;		
 }
 
 .profile .name,
